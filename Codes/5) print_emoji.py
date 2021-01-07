@@ -1,0 +1,3 @@
+print("\U0001F923")
+print("\U0001F60A")
+print("\U0001F60D")

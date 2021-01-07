@@ -1,0 +1,10 @@
+name="Aksh"
+name+="at"
+print(name)
+age=19
+age+=1
+print(age)
+age*=1
+print(age)
+age-=1
+print(age)
