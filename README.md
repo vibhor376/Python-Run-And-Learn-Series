@@ -1,2 +1,2 @@
 # Python-Run-And-Learn-Series
-This repository is for people who want to learn and explore the beauty Python programming language!
+This series consists of 203 python programs, each program covering the detalis of the important topics! 
