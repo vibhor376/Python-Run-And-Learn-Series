@@ -1,0 +1,3 @@
+Akshat,500
+Lekhansh,250
+Preet,400

@@ -1,0 +1,15 @@
+
+USER
+Name:      Akshat Bhatnagar
+Age:       20
+Email:     akshatbhatnagar174@gmail.com
+Gender:    Male
+User is a: Student
+Subsciber: YES
+USER
+Name:      Lekhansh Bhatnagar
+Age:       16
+Email:     lekhansh174a@gmail.com
+Gender:    Male
+User is a: Student
+Subsciber: YES

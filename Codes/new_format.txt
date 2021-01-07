@@ -1,0 +1,3 @@
+Akshat's Salary is 500
+Lekhansh's Salary is 250
+Preet's Salary is 400
