@@ -6,7 +6,7 @@ f1=["mango","orange","grapes"]
 fruits.insert(1,"grapes") # it will insert 'grapes' at index 1
 print(fruits)
 
-# 2) concatination of lists
+# 2) concatenation of lists
 res=fruits+f # concatenating both the lists
 print(res)
 
