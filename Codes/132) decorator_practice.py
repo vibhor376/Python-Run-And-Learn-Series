@@ -13,7 +13,7 @@ def numbers_only_allowed(function):
     def wrapper(*args,**kwargs):
         if all([True if(type(i)==int or type(i)==float) else False for i in args]):
            return function(*args,**kwargs)
-        print("Wrong Arguments were passed")
+        print("Wrong Arguments were passed") # if you write return statement instead of print then 'None' will not be there in output
     return wrapper
 
 @ numbers_only_allowed
