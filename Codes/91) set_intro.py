@@ -17,7 +17,7 @@ print(st) # it will print only unique values
 s2={1,2,3}
 s2.add(4)
 print(s2)
-s2.add(3) # adding duplicate item to the set won't effect it
+s2.add(3) # adding duplicate item to the set won't affect it
 print(s2)
 
 # remove an element for the set
