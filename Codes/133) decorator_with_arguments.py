@@ -6,7 +6,7 @@ def only_data_types_allowed(data_type):
         def wrapper(*args,**kwargs):
             if all([type(i)==data_type for i in args]):
                 return function(*args,**kwargs)
-            print("Invalid arguments!")
+            return "Invalid arguments!"
         return wrapper
     return decorator
 
