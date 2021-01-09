@@ -117,9 +117,9 @@ print("Matches",re.findall('\d{5,7}',num1)) # it will print ['12345', '123456', 
 
 # Example question --> Email verifier!! 
 '''A valid Email should have :
-1) 1 to 20 lowercase and uppercase letters, numbers, plus._%+- 
+1) 1 to 20 lowercase and uppercase letters, numbers 
 2) @ symbol
-3) 2 to 20 lowercase and uppercase letters, numbers, plus.-
+3) 2 to 20 lowercase and uppercase letters, numbers
 4) A period(.)
 5) 2 to 3 lowercase and uppercase letters
 '''
