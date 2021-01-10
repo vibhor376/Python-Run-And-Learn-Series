@@ -13,7 +13,7 @@ my_cursor.execute(query) # this will execute our query
 conn.commit()  # to reflect the changes in sql
 conn.close() # to close the connection
 
-conn= mysql.connector.connect(host='localhost',username='root',password='Mycomputer20$')
+conn= mysql.connector.connect(host='localhost',username='Your Username',password='Your Password')
 
 my_cursor=conn.cursor()
 query='SHOW DATABASES'
@@ -28,14 +28,14 @@ for i in my_cursor:
 conn.commit()
 conn.close()
 
-conn1= mysql.connector.connect(host='localhost',username='root',password='Mycomputer20$',database='new_database') # this will open the "new_database" 
+conn1= mysql.connector.connect(host='localhost',username='Your Username',password='Your Password',database='new_database') # this will open the "new_database" 
 myc=conn1.cursor()
 query1='CREATE TABLE Students (First_Name VARCHAR(200),Last_Name VARCHAR(200))'
 myc.execute(query1)
 conn1.commit()
 conn1.close()
 
-conn2= mysql.connector.connect(host='localhost',username='root',password='Mycomputer20$',database='new_database')
+conn2= mysql.connector.connect(host='localhost',username='Your Username',password='Your Password',database='new_database')
 myc1=conn2.cursor()
 query2='INSERT INTO Students (First_Name,Last_Name) VALUES (%s,%s)' # %s is used to take all the values from the list of tuples!!
 values=[('Akshat','Bhatnagar'),('Preet','Kothari'),('Lekhansh','Bhatnagar'),('Kartikay','Maharshi')]
@@ -43,7 +43,7 @@ myc1.executemany(query2,values)
 conn2.commit()
 conn2.close()
 
-conn3= mysql.connector.connect(host='localhost',username='root',password='Mycomputer20$',database='new_database')
+conn3= mysql.connector.connect(host='localhost',username='Your Username',password='Your Password',database='new_database')
 myc2=conn3.cursor()
 query3='SELECT * FROM Students'
 myc2.execute(query3)
