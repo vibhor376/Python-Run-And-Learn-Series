@@ -67,7 +67,7 @@ radio_btn2.grid(row=4,column=2,sticky=tk.W)
 checkbtn_var=tk.IntVar() # this will have value 1 for checked and 0 for not checked
 checkbtn=ttk.Checkbutton(win,text='Want to Subscribe Our Newsletter',variable=checkbtn_var)
 checkbtn.grid(row=5,columnspan=3,sticky=tk.W) # this columnspan=3 will allow the text to extend to 3 columns without 
-# distrubing the original columns
+# disturbing the original columns
 
 # Creating a button
 
