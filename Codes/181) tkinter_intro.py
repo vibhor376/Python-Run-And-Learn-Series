@@ -67,7 +67,7 @@ radio_btn2.grid(row=4,column=2,sticky=tk.W)
 checkbtn_var=tk.IntVar() # this will have value 1 for checked and 0 for not checked
 checkbtn=ttk.Checkbutton(win,text='Want to Subscribe Our Newsletter',variable=checkbtn_var)
 checkbtn.grid(row=5,columnspan=3,sticky=tk.W) # this columnspan=3 will allow the text to extend to 3 columns without 
-# distrubing the original columns
+# disturbing the original columns
 
 # Creating a button
 
@@ -86,7 +86,7 @@ def action():
             f.write('\n')
         f.write('USER\n')
         f.write(f'Name:      {username.get()}\n')
-        f.write(f'Age:       {userage.get()}\n')  # .get() is used to get the values stored in the variables bu the user
+        f.write(f'Age:       {userage.get()}\n')  # .get() is used to get the values stored in the variables by the user
         f.write(f'Email:     {useremail.get()}\n')
         f.write(f'Gender:    {usergender.get()}\n')
         f.write(f'User is a: {useris.get()}\n')

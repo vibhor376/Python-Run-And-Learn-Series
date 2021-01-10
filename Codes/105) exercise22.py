@@ -1,5 +1,5 @@
 # Write a function which takes an integer and a list or tuple as an argument(Use parameter * args) and returns the list or tuple 
-# which contans elements raise to the power of passed integer
+# which contains elements raise to the power of passed integer
 # Example  n=3 and l=[1,2,3]  so output will be [1,8,27] 
 # If user did not pass any list or tuple then print the message that you have not given any list or tuple else return the list
 

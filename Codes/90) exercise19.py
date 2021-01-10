@@ -1,4 +1,4 @@
-# Our Task is to add the information entered by the user to our dictionary and user should enter the values which are "," separated
+# Our Task is to update the information entered by the user to our dictionary and user should enter the values which are "," separated
 user_info={
     'Name':'Akshat',
     'Age' : 20,

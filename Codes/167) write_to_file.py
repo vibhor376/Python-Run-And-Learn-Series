@@ -14,7 +14,7 @@ with open('sample2.txt','a') as f:
     f.write('\nAppending new data !')
  
 # 3) 'r+' --> By this mode we can do both operation i.e. read and write!! and when we write data using this mode the it 
-# will start writing from the beginning overwriting the data of the existing file till all the text is written annd if still there is
+# will start writing from the beginning overwriting the data of the existing file till all the text is written and if still there is
 # some text remaining from previous file then that text will remain as it is!. Whenever you try to open a non-existing file using 
 # this mode it will give an error instead of creating that file
 
