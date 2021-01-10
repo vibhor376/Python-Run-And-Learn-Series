@@ -86,7 +86,7 @@ def action():
             f.write('\n')
         f.write('USER\n')
         f.write(f'Name:      {username.get()}\n')
-        f.write(f'Age:       {userage.get()}\n')  # .get() is used to get the values stored in the variables bu the user
+        f.write(f'Age:       {userage.get()}\n')  # .get() is used to get the values stored in the variables by the user
         f.write(f'Email:     {useremail.get()}\n')
         f.write(f'Gender:    {usergender.get()}\n')
         f.write(f'User is a: {useris.get()}\n')
