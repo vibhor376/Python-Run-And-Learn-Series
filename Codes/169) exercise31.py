@@ -1,6 +1,6 @@
 # Given a file named salary.txt which contains
 # Name,salary
-# Example : sample.txt
+# Example : salary.txt
 # Akshat,500
 # Lekhansh,250
 # Preet, 400
