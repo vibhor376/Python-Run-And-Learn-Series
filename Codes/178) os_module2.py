@@ -13,6 +13,8 @@ for current_path,folder_names,file_names in fileiter:
 
 os.rmdir(r'D:\Folder_by_Python_os_module') # this will delete only if the folder is empty otherwise it will give an error
 
+open('test.txt','a').close() # creating a file named 'test.txt'
+
 os.makedirs(r'D:\New\movies') # this will create folder named 'New' and also create a folder named 'movies' inside 'New' folder
 
 # so in order to delete non-empty folders we use shutil module
